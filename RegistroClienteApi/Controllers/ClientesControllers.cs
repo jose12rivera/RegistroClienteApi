@@ -52,8 +52,9 @@ namespace RegistroTecnicos.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteClientes(int id)
         {
-            await clientesService.Buscar(id);
+            await clientesService.Eliminar(id);
             return NoContent();
         }
     }
 }
+
