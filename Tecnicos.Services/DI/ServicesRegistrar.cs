@@ -2,15 +2,15 @@
 using Tecnicos.Abstractions;
 using Tecnicos.Data.DI;
 
-namespace Tecnicos.Services.DI;
-
-public static class ServicesRegistrar
+namespace Tecnicos.Services.DI
 {
-    public static IServiceCollection RegisterServices(this IServiceCollection services)
+    public static class ServicesRegistrar
     {
-        services.RegisterDbContextFactory(); 
-        services.AddScoped<IClientesService, ClientesServices>();
-        return services;
+        public static IServiceCollection RegisterServices(this IServiceCollection services)
+        {
+            services.RegisterDbContextFactory();
+            services.AddScoped<IClientesService, ClientesServices>();
+            return services;
+        }
     }
 }
-
