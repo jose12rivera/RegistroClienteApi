@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Tecnicos.Services\Tecnicos.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>
