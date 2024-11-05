@@ -5,7 +5,7 @@
 namespace RegistroClienteApi.Migrations
 {
     /// <inheritdoc />
-    public partial class Clientes : Migration
+    public partial class TecnicosApi : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
