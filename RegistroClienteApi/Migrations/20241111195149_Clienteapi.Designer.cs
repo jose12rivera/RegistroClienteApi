@@ -11,8 +11,8 @@ using Tecnicos.Data.Context;
 namespace RegistroClienteApi.Migrations
 {
     [DbContext(typeof(ClientesContext))]
-    [Migration("20241104202201_TecnicosApi")]
-    partial class TecnicosApi
+    [Migration("20241111195149_Clienteapi")]
+    partial class Clienteapi
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
